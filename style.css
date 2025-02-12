@@ -284,19 +284,15 @@ th {
     text-align: center;
   }
 
-  .caixa {
-    width: auto; 
-  }
-  
   h1 {
     text-align: center;
   }
 
   nav {
     position: static;
-    text-align: center; 
+    text-align: center;
   }
-  
+
   .produtos li {
     display: flex;
     flex-direction: column;
@@ -306,34 +302,31 @@ th {
     margin-bottom: 30px;
     padding: 50px 0;
   }
-
-  form, form label,
-form legend {
-  text-align: center;
-  margin-bottom: 15px;
 }
 
-.input-padrao {
-  margin: auto;
-  margin-bottom: 15px;
+@media screen and (min-width: 480px) {
+  .caixa {
+    width: auto;
+  }
+
+  form,
+  form label,
+  form legend {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .input-padrao {
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .checkbox {
+    margin: 30px 0;
+  }
+
+  table {
+    margin: 20px auto;
+    width: 25%;
+  }
 }
-
-.checkbox {
-  margin: 30px 0;
-}
-
-table {
-  margin: 20px auto;
-  width: 25%;
-}
-
-}
-
-/*
-
-
-
-
-
-
-*/
