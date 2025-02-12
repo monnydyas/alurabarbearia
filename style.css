@@ -243,7 +243,7 @@ th {
   margin: 2em auto;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   .caixa,
   .principal,
   .conteudo-beneficios,
@@ -266,10 +266,6 @@ th {
     padding: 0.5em;
   }
 
-  nav {
-    position: static;
-  }
-
   .beneficios {
     padding: 0.5em;
   }
@@ -284,6 +280,18 @@ th {
     text-align: center;
   }
 
+  nav {
+    position: static;
+    text-align: center;
+  }
+
+}
+
+@media screen and (min-width: 480px) {
+  .caixa {
+    width: auto;
+  }
+
   h1 {
     text-align: center;
   }
@@ -291,7 +299,7 @@ th {
   nav {
     position: static;
     text-align: center;
-  }
+  } 
 
   .produtos li {
     display: flex;
@@ -301,12 +309,6 @@ th {
     margin: 15px auto;
     margin-bottom: 30px;
     padding: 50px 0;
-  }
-}
-
-@media screen and (min-width: 480px) {
-  .caixa {
-    width: auto;
   }
 
   form,
